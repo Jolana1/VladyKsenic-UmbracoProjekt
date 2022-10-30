@@ -1,0 +1,49 @@
+﻿@inherits UmbracoViewPage
+
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="@Url.Content("~/")"><img src="@Url.Content("~/Styles/images/Ja.png") " alt="Vladimír Ksenič" /></a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+            @Html.Partial("Layout/_MainNavigation")
+        </div><!--/.nav-collapse -->
+    </div>
+</nav>
+
+@*<ul class="nav navbar-nav navbar-right">
+
+        <li><a href="@Url.Action("Uvod","Home")">Úvod</a></li>
+        <li><a href="@Url.Action("OsobneUdaje","Home")">Osobné údaje</a></li>
+        <li><a href="@Url.Action("Vzdelanie","Home")">Vzdelanie</a></li>
+        <li><a href="@Url.Action("Kontakt","Home")">Kontakt</a></li>
+        <li><a href="@Url.Action("ZadanieUdajov","Home")">Zadanie údajov</a></li>
+        <li><a href="@Url.Action("ZberUdajov","Home")">Zber údajov</a></li>
+
+    </ul>*@
+  
+
+<!--<header class="header">
+    <nav class="top-bar navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse">
+                @Html.Partial("Layout/_MainNavigation")
+            </div>-->
+<!--/.nav-collapse -->
+<!--</div>
+    </nav>
+</header>-->

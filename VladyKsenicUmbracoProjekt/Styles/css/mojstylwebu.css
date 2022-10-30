@@ -1,0 +1,58 @@
+﻿
+/**toto je spojene Testy2.html+mojstylwebu.css!!!!!!!*/
+body {
+    padding: 0px;
+    margin: 0px;
+}
+div{
+    border:1px solid black;
+}
+div.hlavny{
+   /* width:90%;*/
+    border:1px solid green;
+    padding:10px;
+}
+
+div.lavy{
+    /*width:80%;*/
+    width:400px;
+    border:1px solid red;
+    box-sizing:border-box;
+    display:inline-block;
+
+}
+div.pravy {
+    border: 1px solid blue;
+    width: calc(100% - 400px);
+    box-sizing: border-box; /*kap.Vzhlad webu:Css Box sizing-Mozme to napr. použiť aby nam vosli dane elementy napr. do Menu v jednom riadku a vpravo nejaka ina cast*/
+    display: inline-block;
+    /*width:80vw;*/
+    /*width: 200px;*/
+}
+/*Toto tu je pre mobilne zobrazenie pri lome 767px to je standard,kedze inac sa zobrazuje na PC to je vysie pre div.lavy a div.pravy a inac sa zobrazuje na mobiloch*/
+@media(max-width:767px) {
+    div.lavy {
+        width: 100px;
+        display: block;
+    }
+
+    div.pravy {
+        width: 100px;
+        display: block;
+    }
+    div.ibanapc{
+        display:none;
+    }
+}
+/*Specificity Hierarchy
+Every CSS selector has its place in the specificity hierarchy.
+
+There are four categories which define the specificity level of a selector:
+
+Inline styles - Example: <h1 style="color: pink;">
+IDs - Example: #navbar
+Classes, pseudo-classes, attribute selectors - Example: .test, :hover, [href]
+Elements and pseudo-elements - Example: h1, :before*/
+#druhy {
+    border: 3px solid #ffd800;
+}

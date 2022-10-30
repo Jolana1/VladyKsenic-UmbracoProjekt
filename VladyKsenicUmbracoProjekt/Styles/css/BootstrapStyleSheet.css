@@ -1,0 +1,43 @@
+﻿
+.navbar-default {
+    border: none;
+}
+.navbar-default .navbar-header 
+    img {
+        max-height: 50px;
+        
+    }
+.page-body{
+    padding-top:100px;
+}
+.contact-items .glyphicon {
+    padding-right:10px;
+    color:#cccccc;
+    font-size:20px;
+}
+.tlacitko-moje {
+    padding: 10px;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: inline-block;
+}
+    .tlacitko-moje:hover {
+        color: white;
+        background-color: black;
+        text-decoration: none;
+    }
+.moj-formular .row
+{
+padding:10px 0 10px 0;
+}
+.field-validation-error 
+{
+    color:#ff0000;
+}
+.validation-summary-errors {
+    color: #ff0000;
+}
+.img-responsive img {
+    max-width:100%;
+}

@@ -1,0 +1,147 @@
+﻿
+/*div {
+    background-color: lightgray;
+}
+
+#hornahlavicka{
+    background-color:aquamarine;
+}
+.hlavicka{
+    background-color:aliceblue;
+}
+/*nasleduju prvky ktore maju byt zelene*/
+/*.zelenepozadie{
+    background-color:green;
+}
+p.zelenepozadie{
+    background-color:greenyellow;
+
+}
+.hlavicka,p.zelenepozadie{
+    border:2px solid blue;
+}*/
+body {
+    padding:100px
+    /*background-color: lightgray;
+    background-image: url("../Images/nature-3151869_1920.jpg");
+    background-repeat:no-repeat;
+    background-position-x:center;
+    background-size:cover;*/
+
+}
+
+/*@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');*/
+
+
+/*p.italic {
+    font-style: italic;
+}*/
+/*h1 {
+    font-family: 'Roboto', sans-serif;
+    
+}*/
+h1 {
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    box-shadow: 10px 10px 5px 12px lightblue;
+}
+/*a.testlink{
+    color:blue;
+    border:2px solid blue;
+    border-radius:5px;
+    text-decoration:none;
+    padding:10px;
+
+}
+    a.testlink:hover {
+        color: white;
+        background-color: blue;
+    }*/
+/*.hlavicka{
+    display:none
+}*/
+/*div {
+    display: inline;
+}*/
+ /*.hlavicka a{
+     display:block;
+            }   */
+
+/*ul {
+    list-style-type: none;
+    list-style-type: circle;
+    background: #cce5ff;
+    color: darkblue;
+    margin: 5px;
+}*/
+div {
+    /*background-color:#f0f0f0;*/
+    /*color:rgb(255,255,255);*/
+    /*color: #000000;*/
+    /*border: 1px solid red;*/
+    /*margin: 10px;
+    padding: 10px;*/
+    /*width: 2500px;*/
+    color: rgb(0,0,0);
+    text-align: left;
+    /*text-shadow: 1px 1px 2px red;*/
+    /*text-transform: uppercase;*/
+    /*text-decoration:underline;*/
+    /*text-align: justify;*//*sa neodporuca pri velmi dlhých txt*/
+    /*height: 100px;*/
+    /*overflow:scroll;*/
+    /*overflow: hidden;*/
+    /* border-radius:5px;*/
+}
+
+/*toto dole su priklady pre pracu s Css-poziciami pre divy Testy1.html */
+/*div.hlavny {
+    border: 1px solid blue;
+    position:relative;
+}
+div.vnutorny{
+    border: 1px solid red;
+    position:fixed;
+    left:30px;
+    top:20px;
+}*/
+/*div{
+    width:32%;
+    display:inline-block;
+    border:1px solid red;
+}*/
+/*/CSS DISPLAY toto je pr. pre pracu s Css-inline-blokmi pre span Testy1.html */
+/*span {
+    display:inline-block;
+    padding: 10px;
+    border: 1px solid red;
+}*/
+/*toto je skuska ako pracovat s divami aby sam nam spravali ako inline elementy pri zadaných parametroch hlavneho divu a nastavenia vnutorneho divu pomocou margin:auto*//*tiez testy1.html/*/
+    /*div.hlavny {
+        border: 1px solid red;*/
+        /*text-align:right;*/
+        /*text-align: center;
+    }
+    div.vnutorny {
+        width: 300px;
+        border: 1px solid blue;
+        margin:auto;
+    }*/
+/*Css pseudo elements */
+h1::after,h2::after{
+    width:100px;
+    height:2px;
+    display:block;
+    background-color:blue;
+    content:'  ';
+}
+#grad {
+  
+    background-image: radial-gradient(red, yellow, green);
+}
+
+#grad1 {
+    height: 200px;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, red, yellow);
+}

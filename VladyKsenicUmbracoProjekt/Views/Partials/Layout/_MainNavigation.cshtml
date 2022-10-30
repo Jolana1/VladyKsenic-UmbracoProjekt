@@ -1,0 +1,56 @@
+﻿@inherits UmbracoViewPage
+@{
+    var home = Model.Root();
+}
+
+<ul class="nav navbar-nav navbar-right">
+    <li><a href="@home.Url">@home.Value("menuTitle")</a></li>
+    @foreach (var childPage in home.Children)
+    {
+        if (childPage.IsDocumentType("texty"))
+        {
+            continue;
+        }
+        if (childPage.IsDocumentType("bannerItem"))
+        {
+            continue;
+        }
+
+        if (!(bool)childPage.Value("umbracoNaviHide"))
+        {
+            <li><a href="@childPage.Url">@childPage.Value("menuTitle")</a></li>
+        }
+
+
+            @*if (childPage.Children.Count() > 0)
+            {
+                string menuid = Guid.NewGuid().ToString();
+
+                <li class="dropdown">
+                    <a class="mobile-submenu-parent" href="@childPage.Url">@childPage.Value("menuTitle")</a>
+                    <a class="mobile-submenu-caret" href="#@menuid" data-toggle="collapse" aria-expanded="true"><i class="fa fa-caret-down fa-fw"></i></a>
+                    <ul class="dropdown-menu desktop-only">
+                        @foreach (var child in childPage.Children)
+                        {
+                            <li><a href="@child.Url">@child.Value("menuTitle")</a></li>
+                        }
+                    </ul>
+                    <ul id="@menuid" class="mobile-submenu mobile-only collapse" aria-expanded="false">
+                        @foreach (var child in childPage.Children)
+                        {
+                            <li><a href="@child.Url">@child.Value("menuTitle")</a></li>
+                        }
+                    </ul>
+                </li>
+
+            }
+            else
+            {
+                <li class="@(childPage.IsAncestorOrSelf(Model) ? "selected" : null)">
+                    <a href="@childPage.Url">@childPage.Value("menuTitle")</a>
+                </li>*@
+
+            
+        
+    }
+</ul>
