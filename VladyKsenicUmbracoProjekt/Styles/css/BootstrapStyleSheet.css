@@ -41,3 +41,7 @@ padding:10px 0 10px 0;
 .img-responsive img {
     max-width:100%;
 }
+/*toto sa skryje a zaroven neotravuje a ochrani formular pred robotmi*/
+.api-password-group {
+    display:none;
+}

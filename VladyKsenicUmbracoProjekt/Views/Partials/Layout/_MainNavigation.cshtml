@@ -7,7 +7,7 @@
     <li><a href="@home.Url">@home.Value("menuTitle")</a></li>
     @foreach (var childPage in home.Children)
     {
-        if (childPage.IsDocumentType("texty"))
+        if (childPage.IsDocumentType("text"))
         {
             continue;
         }

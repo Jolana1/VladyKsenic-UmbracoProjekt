@@ -1,11 +1,22 @@
 ﻿@inherits UmbracoViewPage
+@using VladyKsenicUmbracoProjekt.lib.Models.UmbracoCmsContent
+@using VladyKsenicUmbracoProjekt.lib.Repositories.UmbracoCmsContent
+@{ 
+    Text textyPrePatu = TextRepository.GetFromUmbraco(Umbraco);
+}
 
 
 
 <div class="container">
     <div class="päta">
         <hr />
-        Copyright &#169; 2022 Vladimír Ksenič.
+        Copyright &#169; @DateTime.Today.Year Vladimír Ksenič.
+        <br />
+        Tel.:
+        @textyPrePatu.OsobnaStrankaTelefon
+        <br />
+        Email:
+        @textyPrePatu.OsobnaStrankaEmail
 
     </div>
 </div>

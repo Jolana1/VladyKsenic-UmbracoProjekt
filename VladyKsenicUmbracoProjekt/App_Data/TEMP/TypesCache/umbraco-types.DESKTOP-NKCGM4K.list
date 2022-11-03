@@ -302,6 +302,8 @@ Umbraco.Web.Cache.PublicAccessCacheRefresher, Umbraco.Web, Version=8.0.0.0, Cult
 Umbraco.Web.Cache.TemplateCacheRefresher, Umbraco.Web, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
 Umbraco.Web.Cache.UserCacheRefresher, Umbraco.Web, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
 VladyKsenicUmbracoProjekt.lib.Controllers.ContactController, VladyKsenicUmbracoProjekt.lib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+VladyKsenicUmbracoProjekt.lib.Controllers.OsobnaStrankaApiController, VladyKsenicUmbracoProjekt.lib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+VladyKsenicUmbracoProjekt.lib.Controllers._BaseApiController, VladyKsenicUmbracoProjekt.lib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 VladyKsenicUmbracoProjekt.lib.Controllers._BaseController, VladyKsenicUmbracoProjekt.lib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 Umbraco.ModelsBuilder.Embedded.ModelsBuilderDashboard, Umbraco.ModelsBuilder.Embedded, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
 Umbraco.ModelsBuilder.Embedded.Compose.ModelsBuilderComposer, Umbraco.ModelsBuilder.Embedded, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
@@ -464,6 +466,8 @@ Umbraco.Web.Editors.ContentTypeController, Umbraco.Web, Version=8.0.0.0, Culture
 Umbraco.Web.Editors.MediaTypeController, Umbraco.Web, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
 Umbraco.Web.Editors.SectionController, Umbraco.Web, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
 Umbraco.Web.Editors.MediaController, Umbraco.Web, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
+VladyKsenicUmbracoProjekt.lib.Controllers.OsobnaStrankaApiController, VladyKsenicUmbracoProjekt.lib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+VladyKsenicUmbracoProjekt.lib.Controllers._BaseApiController, VladyKsenicUmbracoProjekt.lib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 Umbraco.ModelsBuilder.Embedded.BackOffice.ModelsBuilderDashboardController, Umbraco.ModelsBuilder.Embedded, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
 
 Umbraco.Web.Mvc.SurfaceController
@@ -616,4 +620,22 @@ Umbraco.Web.HealthCheck.Checks.Config.CompilationDebugCheck, Umbraco.Web, Versio
 Umbraco.Web.HealthCheck.NotificationMethods.IHealthCheckNotificationMethod
 
 Umbraco.Web.HealthCheck.NotificationMethods.EmailNotificationMethod, Umbraco.Web, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
+
+Umbraco.Core.Models.PublishedContent.PublishedElementModel
+
+
+Umbraco.Core.Models.PublishedContent.PublishedContentModel
+
+VladyKsenicUmbracoProjekt.lib.Models.UmbracoCmsContent.CmsContent, VladyKsenicUmbracoProjekt.lib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+VladyKsenicUmbracoProjekt.lib.Models.UmbracoCmsContent.File, VladyKsenicUmbracoProjekt.lib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+VladyKsenicUmbracoProjekt.lib.Models.UmbracoCmsContent.Folder, VladyKsenicUmbracoProjekt.lib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+VladyKsenicUmbracoProjekt.lib.Models.UmbracoCmsContent.Image, VladyKsenicUmbracoProjekt.lib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+VladyKsenicUmbracoProjekt.lib.Models.UmbracoCmsContent.LandingPage, VladyKsenicUmbracoProjekt.lib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+VladyKsenicUmbracoProjekt.lib.Models.UmbracoCmsContent.Member, VladyKsenicUmbracoProjekt.lib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+VladyKsenicUmbracoProjekt.lib.Models.UmbracoCmsContent.SEO, VladyKsenicUmbracoProjekt.lib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+VladyKsenicUmbracoProjekt.lib.Models.UmbracoCmsContent.Text, VladyKsenicUmbracoProjekt.lib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+VladyKsenicUmbracoProjekt.lib.Models.UmbracoCmsContent.UmbracoMediaArticle, VladyKsenicUmbracoProjekt.lib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+VladyKsenicUmbracoProjekt.lib.Models.UmbracoCmsContent.UmbracoMediaAudio, VladyKsenicUmbracoProjekt.lib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+VladyKsenicUmbracoProjekt.lib.Models.UmbracoCmsContent.UmbracoMediaVectorGraphics, VladyKsenicUmbracoProjekt.lib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+VladyKsenicUmbracoProjekt.lib.Models.UmbracoCmsContent.UmbracoMediaVideo, VladyKsenicUmbracoProjekt.lib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 

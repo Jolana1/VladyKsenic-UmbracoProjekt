@@ -367,6 +367,7 @@
     <Content Include="Scripts\spectrum.min.js" />
     <Content Include="Scripts\typed.js" />
     <Content Include="Scripts\typed.min.js" />
+    <Content Include="Scripts\vksenic.js" />
     <Content Include="Scripts\waypoints.js" />
     <Content Include="Scripts\waypoints.min.js" />
     <Content Include="Styles\css\bootstrap-theme.css" />
