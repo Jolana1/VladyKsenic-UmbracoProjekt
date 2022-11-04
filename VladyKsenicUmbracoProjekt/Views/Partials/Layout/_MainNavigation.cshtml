@@ -4,7 +4,7 @@
 }
 
 <ul class="nav navbar-nav navbar-right">
-    <li><a href="@home.Url">@home.Value("menuTitle")</a></li>
+    <li><a href="@home.Url()">@home.Value("menuTitle")</a></li>
     @foreach (var childPage in home.Children)
     {
         if (childPage.IsDocumentType("text"))
@@ -18,7 +18,7 @@
 
         if (!(bool)childPage.Value("umbracoNaviHide"))
         {
-            <li><a href="@childPage.Url">@childPage.Value("menuTitle")</a></li>
+            <li><a href="@childPage.Url()">@childPage.Value("menuTitle")</a></li>
         }
 
 

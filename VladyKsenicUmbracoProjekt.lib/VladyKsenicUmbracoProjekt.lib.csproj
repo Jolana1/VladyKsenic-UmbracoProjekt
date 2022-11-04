@@ -74,6 +74,7 @@
     <Compile Include="Models\UmbracoCmsContent\Image.generated.cs" />
     <Compile Include="Models\UmbracoCmsContent\LandingPage.generated.cs" />
     <Compile Include="Models\UmbracoCmsContent\Member.generated.cs" />
+    <Compile Include="Models\UmbracoCmsContent\PolozkaPreGaleriu.generated.cs" />
     <Compile Include="Models\UmbracoCmsContent\SEO.generated.cs" />
     <Compile Include="Models\UmbracoCmsContent\Text.generated.cs" />
     <Compile Include="Models\UmbracoCmsContent\UmbracoMediaArticle.generated.cs" />
