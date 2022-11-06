@@ -2824,6 +2824,8 @@
     <Content Include="Views\MacroPartials\Galeria1.cshtml" />
     <Content Include="Views\MacroPartials\Galeria2.cshtml" />
     <Content Include="Views\MacroPartials\Galeria3.cshtml" />
+    <Content Include="Views\MacroPartials\YouTubeVideo.cshtml" />
+    <Content Include="Views\MacroPartials\LocalVideo.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

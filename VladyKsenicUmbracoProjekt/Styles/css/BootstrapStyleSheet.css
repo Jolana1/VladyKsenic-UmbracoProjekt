@@ -146,3 +146,30 @@ padding:10px 0 10px 0;
 .slider-wrapper .slider-content .photo-slider {
     padding-top: 0;
 }
+/* Course video */
+.course-video {
+    margin: 0 20px 50px 20px;
+}
+
+.course-video {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+}
+
+    .course-video iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .course-video video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
