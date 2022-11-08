@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<language alias="en" intName="English" localName="English" culture="en-US">
+  <area alias="Controllers/ContactController">
+    <key alias="Musíte označiť, že nie ste robot.">You must indicate that you are not a robot.</key>
+   
+  </area>
+
+  
+</language>

@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System.Web.Mvc;
 using Umbraco.Web.Mvc;
 using VladyKsenicUmbracoProjekt.lib.Models;
+using VladyKsenicUmbracoProjekt.lib.Util;
 
 namespace VladyKsenicUmbracoProjekt.lib.Controllers
 {
@@ -25,7 +26,7 @@ namespace VladyKsenicUmbracoProjekt.lib.Controllers
             {
                 if (!new ApiKeyValidator().IsValid(model.Password, model.ConfirmPassword))
                 {
-                    ModelState.AddModelError("", "Musíte označiť, že nie ste robot.");
+                    ModelState.AddModelError("", CurrentLang.GetText("Controllers/ContactController", "Musíte označiť, že nie ste robot."));
                 }
             }
             if (!ModelState.IsValid)

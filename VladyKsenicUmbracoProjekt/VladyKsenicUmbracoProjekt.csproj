@@ -298,6 +298,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\Lang\en.xml" />
+    <Content Include="App_Data\Lang\cs.xml" />
     <Content Include="App_Data\MailTemplates\ContactSendSuccess_Sk.html" />
     <Content Include="App_Data\MailTemplates\EmailOne_Sk.html" />
     <Content Include="config\grid.editors.config.js" />
@@ -2706,6 +2708,7 @@
     <Content Include="Umbraco\Config\Lang\tr.xml" />
     <Content Include="Umbraco\Config\Lang\zh.xml" />
     <Content Include="Umbraco\Config\Lang\zh_tw.xml" />
+    <Content Include="Views\MacroPartials\LocalVideo.cshtml" />
     <Content Include="Web.config" />
     <Content Include="Styles\fontawesome-free-5.13.0\less\brands.less" />
     <Content Include="Styles\fontawesome-free-5.13.0\less\fontawesome.less" />
@@ -2825,7 +2828,6 @@
     <Content Include="Views\MacroPartials\Galeria2.cshtml" />
     <Content Include="Views\MacroPartials\Galeria3.cshtml" />
     <Content Include="Views\MacroPartials\YouTubeVideo.cshtml" />
-    <Content Include="Views\MacroPartials\LocalVideo.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

@@ -85,6 +85,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\UmbracoCmsContent\TextRepository.cs" />
     <Compile Include="Util\OsobnaStrankaMailer.cs" />
+    <Compile Include="Util\TranslateUtil.cs" />
+    <Compile Include="VladyKsenicUmbracoProjektApp.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\dufeksoft\dufeksoft.lib\dufeksoft.lib\dufeksoft.lib.csproj">

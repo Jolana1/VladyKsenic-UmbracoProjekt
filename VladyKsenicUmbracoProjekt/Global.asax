@@ -1,1 +1,1 @@
-﻿<%@ Application Inherits="Umbraco.Web.UmbracoApplication" Language="C#" %>
+﻿<%@ Application Inherits="VladyKsenicUmbracoProjekt.lib.VladyKsenicUmbracoProjektApp" Language="C#" %>
