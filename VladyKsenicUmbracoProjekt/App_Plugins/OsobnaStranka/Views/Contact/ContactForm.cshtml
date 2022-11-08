@@ -1,4 +1,5 @@
 ﻿@model VladyKsenicUmbracoProjekt.lib.Models.OsobnaStrankaContactModel
+@using VladyKsenicUmbracoProjekt.lib.Util
 
 @if (TempData["success"] != null)
 {
@@ -8,12 +9,13 @@
 else
 {
     <h3>Napíšte nám správu</h3>
+
     using (Html.BeginUmbracoForm<VladyKsenicUmbracoProjekt.lib.Controllers.ContactController>("HandleFormSubmit", null, new { @class = "form-horizontal", role = "form" }))
-    {
+  {
         <div class="naplnspajzu-form">
             <div class="row">
                 <div class="col-md-12">
-                    @Html.ValidationSummary(true, "Správu sa nepodarilo odoslať. Opravte chyby a skúste správu odoslať znovu.")
+                    @Html.ValidationSummary(true,CurrentLang.GetText("Views/ContactForm", "Správu sa nepodarilo odoslať. Opravte chyby a skúste správu odoslať znovu."))
                     @Html.AntiForgeryToken()
                     <div class="form-item">
                         @Html.LabelFor(x => x.Name)
@@ -35,6 +37,7 @@ else
                         @Html.PasswordFor(m => m.Password, new { @class = "form-control" })
                         @Html.ValidationMessageFor(m => m.Password)
                     </div>
+                    
                     <div class="api-password-group">
                         @Html.LabelFor(m => m.ConfirmPassword)
                         @Html.PasswordFor(m => m.ConfirmPassword, new { @class = "form-control" })
@@ -42,6 +45,7 @@ else
                     </div>
                 </div>
             </div>
+            <br />
             <div class="row submit">
                 <div class="col-md-12">
                     <a href="#" onclick="document.getElementById('submitButton').click(); return false;" class="tlacitko-moje">Odoslať správu</a>
@@ -49,5 +53,5 @@ else
                 </div>
             </div>
         </div>
+       } 
     }
-}

@@ -13,15 +13,15 @@ namespace VladyKsenicUmbracoProjekt.lib.Models
 {
     public class OsobnaStrankaContactModel
     {
-        [Required(ErrorMessage = "Priezvisko a meno musí byť zadané")]
-        [Display(Name = "Priezvisko a meno")]
+        [RequiredCurrentLang("Models/OsobnaStrankaContactModel", "Priezvisko a meno musí byť zadané")]
+        [DisplayCurrentLang("Models/OsobnaStrankaContactModel", "Priezvisko a meno")]
         public string Name { get; set; }
-        [Email(ErrorMessage = ModelUtil.invalidEmailErrMessage_Sk)]
-        [Required(ErrorMessage = "E-mail musí byť zadaný")]
-        [Display(Name = "E-mail")]
+        [EmailCurrentLang("Models/OsobnaStrankaContactModel", "Neplatný E-mail")]
+        [RequiredCurrentLang("Models/OsobnaStrankaContactModel","E-mail musí byť zadaný")]
+        [DisplayCurrentLang("Models/OsobnaStrankaContactModel", "E-mail")]
         public string Email { get; set; }
-        [Required(ErrorMessage = "Text správy musí byť zadaný")]
-        [Display(Name = "Text správy")]
+        [RequiredCurrentLang("Models/OsobnaStrankaContactModel","Text správy musí byť zadaný")]
+        [DisplayCurrentLang("Models/OsobnaStrankaContactModel", "Text správy")]
         public string Text { get; set; }
 
         [Display(Name = "Heslo")]

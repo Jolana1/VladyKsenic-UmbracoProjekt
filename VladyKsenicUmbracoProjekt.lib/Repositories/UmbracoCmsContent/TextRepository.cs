@@ -24,8 +24,7 @@ namespace VladyKsenicUmbracoProjekt.lib.Repositories.UmbracoCmsContent
 
                 return content == null ? null : new Text(content);
 
-                //public static Text GetFromUmbraco(UmbracoHelper umbraco)
-                //{
+                
                 //    string cultureId = CurrentLang.GetCurrentCultureId(); 
                 //    IPublishedContent publishedContent = umbraco.Content(cultureId == CurrentLang.CultureId_En ? TextyId_En : TextyId_Sk);
                 //    IPublishedContent content = publishedContent;
