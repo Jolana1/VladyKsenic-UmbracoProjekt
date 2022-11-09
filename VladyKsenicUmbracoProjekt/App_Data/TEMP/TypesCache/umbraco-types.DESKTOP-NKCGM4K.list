@@ -640,3 +640,6 @@ VladyKsenicUmbracoProjekt.lib.Models.UmbracoCmsContent.UmbracoMediaAudio, VladyK
 VladyKsenicUmbracoProjekt.lib.Models.UmbracoCmsContent.UmbracoMediaVectorGraphics, VladyKsenicUmbracoProjekt.lib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 VladyKsenicUmbracoProjekt.lib.Models.UmbracoCmsContent.UmbracoMediaVideo, VladyKsenicUmbracoProjekt.lib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 
+Umbraco.Core.Deploy.IServiceConnector
+
+

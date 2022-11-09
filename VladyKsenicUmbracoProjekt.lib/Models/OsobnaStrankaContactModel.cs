@@ -13,10 +13,10 @@ namespace VladyKsenicUmbracoProjekt.lib.Models
 {
     public class OsobnaStrankaContactModel
     {
-        [RequiredCurrentLang("Models/OsobnaStrankaContactModel", "Priezvisko a meno musí byť zadané")]
-        [DisplayCurrentLang("Models/OsobnaStrankaContactModel", "Priezvisko a meno")]
+        [RequiredCurrentLang("Models/OsobnaStrankaContactModel", "Meno a priezvisko musia byť zadané")]
+        [DisplayCurrentLang("Models/OsobnaStrankaContactModel", "Meno a priezvisko")]
         public string Name { get; set; }
-        [EmailCurrentLang("Models/OsobnaStrankaContactModel", "Neplatný E-mail")]
+        [EmailCurrentLang("Models/OsobnaStrankaContactModel", "Neplatný email")]
         [RequiredCurrentLang("Models/OsobnaStrankaContactModel","E-mail musí byť zadaný")]
         [DisplayCurrentLang("Models/OsobnaStrankaContactModel", "E-mail")]
         public string Email { get; set; }

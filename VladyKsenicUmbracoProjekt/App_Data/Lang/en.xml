@@ -7,9 +7,8 @@
 	<key alias="Správu sa nepodarilo odoslať. Opravte chyby a skúste správu odoslať znovu.">The message could not be sent.</key>
     </area>
 	<area alias="Models/OsobnaStrankaContactModel">
-		
-		<key alias="Meno a priezvisko">Name and surname</key>
-		<key alias="Priezvisko a meno musia byť zadané">Name is required</key>
+		<key alias="Meno a priezvisko">Name</key>
+		<key alias="Meno a priezvisko musia byť zadané">Name is required</key>
 		<key alias="E-mail">E-mail</key>
 		<key alias="E-mail musí byť zadaný">E-mail is required</key>
 		<key alias="Neplatný email">Invalid email</key>
