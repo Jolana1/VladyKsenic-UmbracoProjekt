@@ -1,0 +1,31 @@
+﻿@using VladyKsenicUmbracoProjekt.lib.Models
+@model LoginModel
+
+
+
+<div class="login-form">
+    @using (Html.BeginUmbracoForm<VladyKsenicUmbracoProjekt.lib.Controllers.MemberController>("SubmitLogin", null, new { @class = "form-horizontal", role = "form" }))
+    {
+        @Html.AntiForgeryToken()
+        <div class="developerboss-form">
+            <div class="form-item">
+                @Html.LabelFor(m => m.Username)
+                @Html.TextBoxFor(m => m.Username, new { @class = "form-control", placeholder = "Váš e-mail" })
+                @Html.ValidationMessageFor(m => m.Username)
+            </div>
+
+            <div class="form-item">
+                @Html.LabelFor(m => m.Password)
+                @Html.PasswordFor(m => m.Password, new { @class = "form-control", placeholder = "Vaše heslo" })
+                @Html.ValidationMessageFor(m => m.Password)
+                <p class="text-right"><a href="@Url.Content("~/clenska-sekcia-zabudnute-heslo")">Zabudnuté heslo?</a></p>
+            </div>
+
+            @Html.ValidationSummary(true)
+            <div class="form-section">
+                <a href="#" onclick="document.getElementById('submitButton').click(); return false;" class="btn btn-primary btn-lg">Prihlásiť</a>
+                <input type="submit" id="submitButton" class="hidden" />
+            </div>
+        </div>
+    }
+</div>

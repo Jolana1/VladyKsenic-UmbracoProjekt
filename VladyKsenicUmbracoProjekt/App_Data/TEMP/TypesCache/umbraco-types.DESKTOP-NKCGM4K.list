@@ -93,6 +93,7 @@ Umbraco.Core.Migrations.Upgrade.V_8_0_0.DataTypes.PreValueMigratorComposer, Umbr
 Umbraco.Core.Logging.Viewer.LogViewerComposer, Umbraco.Core, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
 Umbraco.Core.Services.Implement.KeyValueService+InitializeMigration, Umbraco.Core, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
 VladyKsenicUmbracoProjekt.lib.Controllers.ContactController, VladyKsenicUmbracoProjekt.lib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+VladyKsenicUmbracoProjekt.lib.Controllers.MemberController, VladyKsenicUmbracoProjekt.lib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 VladyKsenicUmbracoProjekt.lib.Controllers.OsobnaStrankaApiController, VladyKsenicUmbracoProjekt.lib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 VladyKsenicUmbracoProjekt.lib.Controllers._BaseApiController, VladyKsenicUmbracoProjekt.lib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 VladyKsenicUmbracoProjekt.lib.Controllers._BaseController, VladyKsenicUmbracoProjekt.lib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
@@ -382,6 +383,7 @@ Umbraco.Web.PropertyEditors.ValueConverters.RteMacroRenderingValueConverter, Umb
 Umbraco.Web.Mvc.PluginController
 
 VladyKsenicUmbracoProjekt.lib.Controllers.ContactController, VladyKsenicUmbracoProjekt.lib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+VladyKsenicUmbracoProjekt.lib.Controllers.MemberController, VladyKsenicUmbracoProjekt.lib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 VladyKsenicUmbracoProjekt.lib.Controllers._BaseController, VladyKsenicUmbracoProjekt.lib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 Umbraco.Web.Controllers.UmbProfileController, Umbraco.Web, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
 Umbraco.Web.Controllers.UmbLoginStatusController, Umbraco.Web, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
@@ -473,6 +475,7 @@ Umbraco.ModelsBuilder.Embedded.BackOffice.ModelsBuilderDashboardController, Umbr
 Umbraco.Web.Mvc.SurfaceController
 
 VladyKsenicUmbracoProjekt.lib.Controllers.ContactController, VladyKsenicUmbracoProjekt.lib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+VladyKsenicUmbracoProjekt.lib.Controllers.MemberController, VladyKsenicUmbracoProjekt.lib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 VladyKsenicUmbracoProjekt.lib.Controllers._BaseController, VladyKsenicUmbracoProjekt.lib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 Umbraco.Web.Controllers.UmbProfileController, Umbraco.Web, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
 Umbraco.Web.Controllers.UmbLoginStatusController, Umbraco.Web, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
@@ -639,7 +642,4 @@ VladyKsenicUmbracoProjekt.lib.Models.UmbracoCmsContent.UmbracoMediaArticle, Vlad
 VladyKsenicUmbracoProjekt.lib.Models.UmbracoCmsContent.UmbracoMediaAudio, VladyKsenicUmbracoProjekt.lib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 VladyKsenicUmbracoProjekt.lib.Models.UmbracoCmsContent.UmbracoMediaVectorGraphics, VladyKsenicUmbracoProjekt.lib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 VladyKsenicUmbracoProjekt.lib.Models.UmbracoCmsContent.UmbracoMediaVideo, VladyKsenicUmbracoProjekt.lib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-
-Umbraco.Core.Deploy.IServiceConnector
-
 
