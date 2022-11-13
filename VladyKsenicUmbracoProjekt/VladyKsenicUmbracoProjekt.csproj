@@ -334,6 +334,7 @@
     <Content Include="App_Plugins\OsobnaStranka\Views\Contact\ContactForm.cshtml" />
     <Content Include="App_Plugins\OsobnaStranka\Views\Web.config" />
     <Content Include="App_Plugins\OsobnaStranka\Views\Member\Login.cshtml" />
+    <Content Include="App_Plugins\OsobnaStranka\Views\Member\MemberInfo.cshtml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
     <Content Include="Scripts\jquery-ui.js" />
@@ -2830,6 +2831,7 @@
     <Content Include="Views\MacroPartials\Galeria3.cshtml" />
     <Content Include="Views\MacroPartials\YouTubeVideo.cshtml" />
     <Content Include="Views\MacroPartials\LoginForm.cshtml" />
+    <Content Include="Views\MacroPartials\MemberInfo.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

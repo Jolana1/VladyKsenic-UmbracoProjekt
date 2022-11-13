@@ -6,11 +6,10 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Web.Mvc;
 using System.Web.Security;
-//using Umbraco.Web.Models;
 using Umbraco.Web.Mvc;
 using VladyKsenicUmbracoProjekt.lib.Models;
 using VladyKsenicUmbracoProjekt.lib.Util;
-//using LoginModel = VladyKsenicUmbracoProjekt.lib.Models.LoginModel;
+
 
 namespace VladyKsenicUmbracoProjekt.lib.Controllers
 {
@@ -56,6 +55,7 @@ namespace VladyKsenicUmbracoProjekt.lib.Controllers
             Members.Logout();
             return this./*RedirectToUmbracoPageResult*/RedirectToOsobnaStrankaUmbracoPage(ConfigurationUtil.LoginFormId);
         }
+        public ActionResult MemberInfo() => View();
 
         //public ActionResult LostPassword()
         //{

@@ -1,0 +1,14 @@
+﻿@{
+    var myUser = System.Web.Security.Membership.GetUser();
+    if (myUser != null)
+    
+    {
+    <p>
+        @myUser.UserName
+    </p>
+    <p>
+       <a href="@Url.Action("Logout","Member",new {area = "OsobnaStranka"})" class="btn btn-primary btn-lg">Odhlásiť</a>
+    </p>
+
+    }
+}
