@@ -325,6 +325,32 @@
     <Content Include="config\splashes\noNodes.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Media\0tchmihv\ja.jpg" />
+    <Content Include="Media\Fotopozadia\Chachi Tree Frogs.jpg" />
+    <Content Include="Media\Fotopozadia\Chateau de Villandry, France.jpg" />
+    <Content Include="Media\Fotopozadia\Cherry Tree and Dandelion Meadow, Zug Canton, Switzerland.jpg" />
+    <Content Include="Media\Fotopozadia\Chocolate Labrador.jpg" />
+    <Content Include="Media\Fotopozadia\Christmas Angels.jpg" />
+    <Content Include="Media\Fotopozadia\Christmas Market, Old Town Square, Prague, Czech Republic.jpg" />
+    <Content Include="Media\Fotopozadia\Church of Good Shepherd, Lake Tekapo, South Island, New Zeal.jpg" />
+    <Content Include="Media\Fotopozadia\Coral Reef, Southern Red Sea, Near Safaga, Egypt.jpg" />
+    <Content Include="Media\Fotopozadia\Country Ranch in Winter, Near Baker, Union County, Oregon.jpg" />
+    <Content Include="Media\Fotopozadia\Covered Bridge, Franconia Notch State Park, New Hampshire.jpg" />
+    <Content Include="Media\Fotopozadia\Coyote Cascade, Coyote Gulch, Utah.jpg" />
+    <Content Include="Media\Fotopozadia\Crescent Lake, White Mountains, Apache-Sitgreaves National F.jpg" />
+    <Content Include="Media\Fotopozadia\Crowning Glory.jpg" />
+    <Content Include="Media\Fotopozadia\Daffodils and Hyacinth.jpg" />
+    <Content Include="Media\Fotopozadia\Dal River, Dalarna, Sweden.jpg" />
+    <Content Include="Media\Fotopozadia\Dalmatian on Rocky Beach.jpg" />
+    <Content Include="Media\Fotopozadia\Dawn Over New Zealand.jpg" />
+    <Content Include="Media\Fotopozadia\Dead Vlei, Sossuvlei National Park Namibia, Africa.jpg" />
+    <Content Include="Media\Fotopozadia\December Decor, Ashland, Oregon.jpg" />
+    <Content Include="Media\Fotopozadia\Desert Flowers, Carrizo Plain National Monument, California.jpg" />
+    <Content Include="Media\Fotopozadia\Dew Drops on a Vine Maple Leaf.jpg" />
+    <Content Include="Media\Fotopozadia\Dimensions.jpg" />
+    <Content Include="Media\Fotopozadia\Donkey Beach, Kauai, Hawaii.jpg" />
+    <Content Include="Media\Fotopozadia\Double Rainbow, Marion County, Oregon.jpg" />
+    <Content Include="Media\Fotopozadia\Double Rainbow, Switcurrent River and the Wynn Range, Glacie.jpg" />
+    <Content Include="Media\Fotopozadia\Drops on Passion Flower Tendrils, Italy.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\chosen.jquery.js" />
@@ -2840,6 +2866,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Media\00fbuhks\" />
     <Folder Include="Styles\video\" />
   </ItemGroup>
   <ItemGroup>
