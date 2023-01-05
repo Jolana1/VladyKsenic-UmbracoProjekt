@@ -18,12 +18,12 @@
                 @Html.LabelFor(m => m.Password)
                 @Html.PasswordFor(m => m.Password, new { @class = "form-control", placeholder = "Vaše heslo" })
                 @Html.ValidationMessageFor(m => m.Password)
-                <p class="text-right"><a href="@Url.Content("~/clenska-sekcia-zabudnute-heslo")">Zabudnuté heslo?</a></p>
+                <p class="text-right"><a href="@Url.Content("~/clenska-sekcia-zabudnute-heslo")">Zabudnuté heslo?<i class="fas fa-lock"></i></a></p>
             </div>
 
             @Html.ValidationSummary(true)
             <div class="form-section">
-                <a href="#" onclick="document.getElementById('submitButton').click(); return false;" class="btn btn-primary btn-lg">Prihlásiť</a>
+                <a href="#" onclick="document.getElementById('submitButton').click(); return false;" class="btn btn-primary btn-lg" style="font-size:25px;"><i class="fas fa-lock"></i> Prihlásiť</a>
                 <input type="submit" id="submitButton" class="hidden" />
             </div>
         </div>

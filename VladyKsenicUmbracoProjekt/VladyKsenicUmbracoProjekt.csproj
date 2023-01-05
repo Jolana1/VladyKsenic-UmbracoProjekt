@@ -330,12 +330,15 @@
     <Content Include="Scripts\chosen.jquery.js" />
     <Content Include="Scripts\chosen.jquery.min.js" />
     <Content Include="Scripts\document.ready.js" />
-    <Content Include="Scripts\document.ready.min.js" />
     <Content Include="App_Plugins\OsobnaStranka\Views\Contact\ContactForm.cshtml" />
     <Content Include="App_Plugins\OsobnaStranka\Views\Web.config" />
     <Content Include="App_Plugins\OsobnaStranka\Views\Member\Login.cshtml" />
     <Content Include="App_Plugins\OsobnaStranka\Views\Member\MemberInfo.cshtml" />
+    <None Include="bundleconfig.json" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\document.ready.min.js">
+      <DependentUpon>document.ready.js</DependentUpon>
+    </Content>
     <Content Include="Scripts\jquery-1.10.2.min.js" />
     <Content Include="Scripts\jquery-ui.js" />
     <Content Include="Scripts\jquery-ui.min.js" />
@@ -348,7 +351,9 @@
     <Content Include="Scripts\jquery.Form.js" />
     <Content Include="Scripts\jquery.Form.min.js" />
     <Content Include="Scripts\jquery.lazy.js" />
-    <Content Include="Scripts\jquery.lazy.min.js" />
+    <Content Include="Scripts\jquery.lazy.min.js">
+      <DependentUpon>jquery.lazy.js</DependentUpon>
+    </Content>
     <Content Include="Scripts\jquery.ui.datepicker-sk.js" />
     <Content Include="Scripts\jquery.ui.datepicker-sk.min.js" />
     <Content Include="Scripts\jquery.unobtrusive-ajax.min.js" />

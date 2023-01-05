@@ -4,4 +4,5 @@
         function () { $(this).addClass('open'); },
         function () { $(this).removeClass('open'); }
     );
+    $("img.lazy").lazy();
 });

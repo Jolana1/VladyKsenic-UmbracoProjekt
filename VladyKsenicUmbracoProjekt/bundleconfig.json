@@ -1,0 +1,14 @@
+[
+  {
+    "outputFileName": "Scripts/document.ready.min.js",
+    "inputFiles": [
+      "Scripts/document.ready.js"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/jquery.lazy.min.js",
+    "inputFiles": [
+      "Scripts/jquery.lazy.js"
+    ]
+  }
+]
