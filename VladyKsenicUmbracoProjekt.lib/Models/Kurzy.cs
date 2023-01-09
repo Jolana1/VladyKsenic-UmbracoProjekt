@@ -8,6 +8,6 @@ namespace VladyKsenicUmbracoProjekt.lib.Models
 {
     public class Kurzy
     {
-        public string[] zoznamKurzov = { "Kurz Html", "Kurz CSS", "Kurz MVC", "Kurz FrontEnd", "Kurz Bootstrap", "Kurz C#", "Kurz 7", "Kurz 8" };
+        public string[] zoznamKurzov = { "Kurz Html", "Kurz CSS", "Kurz JS", "Kurz FrontEndDeveloper", "Kurz DeveloperBoss", "Kurz Python", "Kurz SQL", "Kurz Java pre zaciatocníkov", "A iné" };
     }
 }
