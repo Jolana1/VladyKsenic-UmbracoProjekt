@@ -1,3 +1,4 @@
+![ja](https://user-images.githubusercontent.com/38831957/211645218-cce102e0-8551-49a4-b81c-62dded7225d5.jpg)
 
 <!DOCTYPE html>
 <!-- saved from url=(0026)http://localhost:50609/sk/ -->
