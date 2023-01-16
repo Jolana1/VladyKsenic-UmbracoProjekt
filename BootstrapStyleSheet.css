@@ -1,0 +1,181 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+p,h1{
+    
+    /*font-family: 'Montserrat', sans-serif;*/
+    font-family: 'Langar', cursive;
+    font-size:20px;
+}
+.navbar-default {
+    border: none;
+}
+.navbar-default .navbar-header 
+    img {
+        max-height: 50px;
+        
+    }
+.page-body{
+    padding-top:100px;
+}
+.contact-items .glyphicon {
+    padding-right:10px;
+    color:#cccccc;
+    font-size:20px;
+}
+.tlacitko-moje {
+    padding: 10px;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: inline-block;
+}
+    .tlacitko-moje:hover {
+        color: white;
+        background-color: black;
+        text-decoration: none;
+    }
+.moj-formular .row
+{
+padding:10px 0 10px 0;
+}
+.field-validation-error 
+{
+    color:#ff0000;
+}
+.validation-summary-errors {
+    color: #ff0000;
+}
+.img-responsive img {
+    max-width:100%;
+}
+/*toto sa skryje a zaroven neotravuje a ochrani formular pred robotmi*/
+.api-password-group {
+    display:none;
+}
+
+/* Photo gallery2*/
+.gallery-list .gallery-folder {
+    margin-bottom: 50px;
+}
+
+.gallery-list .gallery-img {
+    padding: 10px 0;
+}
+
+.gallery-list .photo-gallery-item {
+    position: relative;
+}
+
+    .gallery-list .photo-gallery-item img {
+        width: 100%;
+    }
+
+    .gallery-list .photo-gallery-item .photo-gallery-item-hover {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(120, 120, 120, 0.5);
+        display: none;
+        top: 0;
+        left: 0;
+        text-align: center;
+    }
+
+    .gallery-list .photo-gallery-item:hover .photo-gallery-item-hover {
+        display: block;
+        cursor: pointer;
+    }
+
+    .gallery-list .photo-gallery-item .photo-gallery-item-hover i {
+        color: #FFFFFF;
+        margin: auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        display: block;
+    }
+/* Photo gallery1*/
+.photo-slider {
+    padding: 20px 20px 50px 20px;
+}
+
+@media(max-width: 768px) {
+    .photo-slider {
+        padding: 20px 10px 50px 10px;
+    }
+}
+
+.photo-slider .photo-slider-toolbar {
+    position: relative;
+    height: 50px;
+}
+
+    .photo-slider .photo-slider-toolbar .photo-slider-count {
+        padding-left: 15px;
+        color: #000000;
+        font-weight: bold;
+        font-size: 14px;
+    }
+
+    .photo-slider .photo-slider-toolbar .photo-slider-close {
+        position: absolute;
+        top: 10px;
+        right: 20px;
+        color: #000000;
+        font-weight: bold;
+        font-size: 14px;
+        cursor: pointer;
+    }
+
+.photo-slider .lightSlider {
+    text-align: center;
+}
+
+    .photo-slider .lightSlider img.img-ls-responsive {
+        margin: auto;
+        max-height: 70vh;
+        max-width: 100%;
+    }
+
+.photo-slider-link {
+    cursor: pointer;
+}
+
+.slider-wrapper {
+    display: none;
+}
+
+.slider-wrapper-template {
+    display: none;
+}
+
+.slider-wrapper .slider-content .photo-slider {
+    padding-top: 0;
+}
+/* Course video */
+.course-video {
+    margin: 0 20px 50px 20px;
+}
+
+.course-video {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+}
+
+    .course-video iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .course-video video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
