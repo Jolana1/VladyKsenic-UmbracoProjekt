@@ -1,10 +1,17 @@
 ﻿@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 p, h1 {
     color: white;
-    /*font-family: 'Montserrat', sans-serif;*/
-    font-family: 'Langar', cursive;
+    font-family: 'Montserrat', sans-serif;
+    /*font-family: 'Langar', cursive;*/
     font-size: 20px;
 }
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
 
 .navbar-default {
     border: none;
@@ -14,11 +21,19 @@ p, h1 {
     img {
         max-height: 50px;
         background-color: antiquewhite;
+        float: left;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        overflow: hidden;
+        margin: 0 10px 0 0;
+        transition: all .3s ease;
     }
+
 .page-body {
     padding-top: 100px;
     background-image: url("/Media/2ombztoh/coyote-cascade-coyote-gulch-utah.jpg");
-    color:white;
+    color: white;
     background-repeat: no-repeat;
     background-position-x: center;
     background-size: cover;
@@ -31,30 +46,73 @@ p, h1 {
     font-size:20px;
 }
 .tlacitko-moje {
-    padding: 10px;
-    color: black;
+    display: inline-block;
+    color: #7db9ff;
+    border: 2px solid white;
+    padding: .5em 1.7em;
+    text-decoration: none;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+
+    .tlacitko-moje:hover {
+        color: white;
+        text-decoration: none;
+    }
+
+        .tlacitko-moje:hover:after {
+            left: 0;
+            opacity: 1;
+        }
+
+    .tlacitko-moje:after {
+        content: "";
+        position: absolute;
+        left: -100%;
+        top: 0;
+        display:inline-block;
+        width: 100%;
+        height: 100%;
+        background-color: #4aacf4;
+        opacity: 0;
+        transition: all .3s ease;
+        z-index: -1;
+    }
+
+
+/* povodne .tlacitko-moje *//*{
+ padding: 10px;
+    color: white;
     border: 1px solid black;
     border-radius: 5px;
-    display: inline-block;
+    display: inline-block;}
 }
     .tlacitko-moje:hover {
         color: white;
         background-color: black;
         text-decoration: none;
-    }
-.moj-formular .row
-{
-padding:10px 0 10px 0;
+    }*/
+
+.moj-formular .row {
+    padding: 10px 0 10px 0;
 }
-.field-validation-error 
-{
-    color:#ff0000;
+.field-validation-error {
+    color: #4aacf4;
 }
 .validation-summary-errors {
-    color: #ff0000;
+    color: #4aacf4;
 }
 .img-responsive img {
-    max-width:100%;
+    max-width: 100%;
+    float: left;
+    width: 200px;
+    height: 195px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 10px 0 0;
+    transition: all .3s ease;
 }
 /*toto sa skryje a zaroven neotravuje a ochrani formular pred robotmi*/
 .api-password-group {
