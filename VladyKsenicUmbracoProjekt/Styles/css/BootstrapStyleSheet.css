@@ -1,39 +1,50 @@
-﻿@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
-p, h1 {
-    color: white;
+﻿
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+p,h1,h2,h3 {
+    color: black;
     font-family: 'Montserrat', sans-serif;
     /*font-family: 'Langar', cursive;*/
     font-size: 20px;
 }
 
 a {
-    color: white;
+    color:black;
     text-decoration: none;
 }
+/*.pozadie {
+    background-image: url("/Images/2ombztoh/coyote-cascade-coyote-gulch-utah.jpg");
+    
+}*/
 
+.hlavicka, p.pozadie {
+    border: 2px solid blue;
+    background-color: #4aacf4;
+}
 
 
 .navbar-default {
     border: none;
-    background-color: antiquewhite;
+    
 }
+
     .navbar-default .navbar-header
     img {
-        max-height: 50px;
-        background-color: antiquewhite;
+        max-height: 45px;
+        background-color: #7db9ff;
         float: left;
-        width: 50px;
-        height: 50px;
+        width: 45px;
+        height: 45px;
         border-radius: 50%;
         overflow: hidden;
-        margin: 0 10px 0 0;
+        margin: 3px 10px 0 0;
         transition: all .3s ease;
     }
 
 .page-body {
-    padding-top: 100px;
-    background-image: url("/Media/2ombztoh/coyote-cascade-coyote-gulch-utah.jpg");
-    color: white;
+    padding-top: 90px;
+   
+    background-color: #4aacf4;
     background-repeat: no-repeat;
     background-position-x: center;
     background-size: cover;
@@ -41,14 +52,15 @@ a {
 
 
 .contact-items .glyphicon {
-    padding-right:10px;
-    color:#cccccc;
-    font-size:20px;
+    padding-right: 10px;
+    color: white;
+    font-size: 15px;
 }
+
 .tlacitko-moje {
     display: inline-block;
-    color: #7db9ff;
-    border: 2px solid white;
+    color: white;
+    border: 2px solid black;
     padding: .5em 1.7em;
     text-decoration: none;
     position: relative;
@@ -58,7 +70,7 @@ a {
 
 
     .tlacitko-moje:hover {
-        color: white;
+        color: black;
         text-decoration: none;
     }
 
@@ -72,17 +84,17 @@ a {
         position: absolute;
         left: -100%;
         top: 0;
-        display:inline-block;
+        display: inline-block;
         width: 100%;
         height: 100%;
-        background-color: #4aacf4;
+        background-color: white;
         opacity: 0;
         transition: all .3s ease;
         z-index: -1;
     }
 
 
-/* povodne .tlacitko-moje *//*{
+/* povodne .tlacitko-moje */ /*{
  padding: 10px;
     color: white;
     border: 1px solid black;
@@ -97,26 +109,30 @@ a {
 
 .moj-formular .row {
     padding: 10px 0 10px 0;
+    color: white;
 }
+
 .field-validation-error {
-    color: #4aacf4;
+    color: #ff0000;
 }
+
 .validation-summary-errors {
-    color: #4aacf4;
+    color: #ff0000;
 }
+
 .img-responsive img {
     max-width: 100%;
-    float: left;
+  /*  float: left;
     width: 200px;
-    height: 195px;
+    height: 180px;
     border-radius: 50%;
     overflow: hidden;
     margin: 0 10px 0 0;
-    transition: all .3s ease;
+    transition: all .3s ease;*/
 }
 /*toto sa skryje a zaroven neotravuje a ochrani formular pred robotmi*/
 .api-password-group {
-    display:none;
+    display: none;
 }
 
 /* Photo gallery2*/
@@ -246,3 +262,44 @@ a {
         width: 100%;
         height: 100%;
     }
+
+/*.navbar-default {
+    border: none;
+}
+.navbar-default .navbar-header 
+    img {
+        max-height: 50px;
+        
+    }
+.page-body{
+    padding-top:100px;
+}
+.contact-items .glyphicon {
+    padding-right:10px;
+    color:#cccccc;
+    font-size:20px;
+}
+.tlacitko-moje {
+    padding: 10px;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: inline-block;
+}
+    .tlacitko-moje:hover {
+        color: white;
+        background-color: black;
+        text-decoration: none;
+    }
+.moj-formular .row
+{
+padding:10px 0 10px 0;
+}
+.field-validation-error 
+{
+    color:#ff0000;
+}
+.validation-summary-errors {
+    color: #ff0000;
+}
+*/

@@ -298,8 +298,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Data\Lang\cs.xml" />
-    <Content Include="App_Data\Lang\en.xml" />
     <Content Include="App_Data\MailTemplates\ContactSendSuccess_Sk.html" />
     <Content Include="App_Data\MailTemplates\EmailOne_Sk.html" />
     <Content Include="config\grid.editors.config.js" />
@@ -325,6 +323,8 @@
     <Content Include="config\splashes\noNodes.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Media\0tchmihv\ja.jpg" />
+    <Content Include="Media\2ombztoh\coyote-cascade-coyote-gulch-utah.jpg" />
+    <Content Include="Media\john_doe.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\chosen.jquery.js" />
@@ -2075,6 +2075,7 @@
     <Content Include="Styles\images\Ja.png" />
     <Content Include="Styles\images\lptrading-favicon.png" />
     <Content Include="Styles\images\LWSlogo.jpg" />
+    <Content Include="Styles\images\VladimirKsenic.jpg" />
     <Content Include="Umbraco\assets\css\canvasdesigner.css" />
     <Content Include="Umbraco\assets\css\installer.css" />
     <Content Include="Umbraco\assets\css\nonodes.style.min.css" />
@@ -2737,7 +2738,10 @@
     <Content Include="Umbraco\Config\Lang\tr.xml" />
     <Content Include="Umbraco\Config\Lang\zh.xml" />
     <Content Include="Umbraco\Config\Lang\zh_tw.xml" />
+    <Content Include="Views\LandingPage.cshtml" />
+    <Content Include="Views\layout.cshtml" />
     <Content Include="Views\MacroPartials\LocalVideo.cshtml" />
+    <Content Include="Views\_Layout.cshtml" />
     <Content Include="Web.config" />
     <Content Include="Styles\fontawesome-free-5.13.0\less\brands.less" />
     <Content Include="Styles\fontawesome-free-5.13.0\less\fontawesome.less" />
@@ -2806,8 +2810,6 @@
     <Content Include="Styles\webfonts\fa-solid-900.ttf" />
     <Content Include="Styles\webfonts\fa-solid-900.woff" />
     <Content Include="Styles\webfonts\fa-solid-900.woff2" />
-    <Content Include="Views\LandingPage.cshtml" />
-    <Content Include="Views\layout.cshtml" />
     <Content Include="Views\Partials\Layout\_Footer.cshtml" />
     <Content Include="Views\Partials\Layout\_Header.cshtml" />
     <Content Include="Views\Partials\Layout\_HtmlHead.cshtml" />
@@ -2916,6 +2918,8 @@
           <DevelopmentServerPort>50609</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>http://localhost:50609/</IISUrl>
+          <OverrideIISAppRootUrl>True</OverrideIISAppRootUrl>
+          <IISAppRootUrl>http://localhost:50609/</IISAppRootUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
