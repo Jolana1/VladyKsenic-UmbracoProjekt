@@ -2,24 +2,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
 p,h1,h2,h3 {
-    color: black;
+    color: white;
     font-family: 'Montserrat', sans-serif;
     /*font-family: 'Langar', cursive;*/
-    font-size: 20px;
+    font-size: 15px;
 }
 
 a {
     color:black;
     text-decoration: none;
 }
-/*.pozadie {
+.pozadie {
     background-image: url("/Images/2ombztoh/coyote-cascade-coyote-gulch-utah.jpg");
     
-}*/
+}
 
 .hlavicka, p.pozadie {
     border: 2px solid blue;
-    background-color: #4aacf4;
+   /* background-color: #4aacf4;*/
 }
 
 
@@ -42,9 +42,8 @@ a {
     }
 
 .page-body {
-    padding-top: 90px;
-   
-    background-color: #4aacf4;
+    padding-top: 50px;
+    background-color: #726539;
     background-repeat: no-repeat;
     background-position-x: center;
     background-size: cover;
@@ -122,13 +121,13 @@ a {
 
 .img-responsive img {
     max-width: 100%;
-  /*  float: left;
+    float: left;
     width: 200px;
     height: 180px;
     border-radius: 50%;
     overflow: hidden;
     margin: 0 10px 0 0;
-    transition: all .3s ease;*/
+    transition: all .3s ease;
 }
 /*toto sa skryje a zaroven neotravuje a ochrani formular pred robotmi*/
 .api-password-group {
