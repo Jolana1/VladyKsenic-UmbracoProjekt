@@ -52,7 +52,7 @@ namespace VladyKsenicUmbracoProjekt.lib.Models.UmbracoCmsContent
 		public virtual string OsobnaStrankaEmail => this.Value<string>("osobnaStrankaEmail");
 
 		///<summary>
-		/// OsobnaStrankaTelefon: Telefonne cislo
+		/// OsobnaStrankaTelefon: Tel.cislo
 		///</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "8.18.5")]
 		[ImplementPropertyType("osobnaStrankaTelefon")]

@@ -15,7 +15,7 @@ namespace VladyKsenicUmbracoProjekt.lib.Repositories.UmbracoCmsContent
         public class TextRepository
         {
             public const int TextyId_Sk = 1069;
-            public const int TextyId_En = 1120;
+            public const int TextyId_En = 1072;
 
             public static Text GetFromUmbraco(UmbracoHelper umbraco)
             {

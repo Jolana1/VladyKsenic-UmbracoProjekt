@@ -298,6 +298,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\Lang\cs.xml" />
+    <Content Include="App_Data\Lang\en.xml" />
     <Content Include="App_Data\MailTemplates\ContactSendSuccess_Sk.html" />
     <Content Include="App_Data\MailTemplates\EmailOne_Sk.html" />
     <Content Include="config\grid.editors.config.js" />

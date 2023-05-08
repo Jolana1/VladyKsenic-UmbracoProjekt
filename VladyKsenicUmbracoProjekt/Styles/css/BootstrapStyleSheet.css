@@ -57,10 +57,11 @@ a {
 }
 
 .tlacitko-moje {
+    padding: 10px;
     display: inline-block;
     color: white;
     border: 2px solid black;
-    padding: .5em 1.7em;
+    /*padding: .5em 1.7em;*/
     text-decoration: none;
     position: relative;
     overflow: hidden;
