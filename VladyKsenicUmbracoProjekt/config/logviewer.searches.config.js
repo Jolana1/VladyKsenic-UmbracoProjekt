@@ -12,10 +12,6 @@
     "query": "SortedComponentTypes[?] = 'Umbraco.Web.Search.ExamineComponent'"
   },
   {
-    "name": "Find logs where one of the items in the SortedComponentTypes property array contains",
-    "query": "Contains(SortedComponentTypes[?], 'DatabaseServer')"
-  },
-  {
     "name": "Find all logs that the message has localhost in it with SQL like",
     "query": "@Message like '%localhost%'"
   },

@@ -2863,6 +2863,7 @@
     <Content Include="Views\MacroPartials\YouTubeVideo.cshtml" />
     <Content Include="Views\MacroPartials\LoginForm.cshtml" />
     <Content Include="Views\MacroPartials\MemberInfo.cshtml" />
+    <Content Include="Views\MacroPartials\Galeria4.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
