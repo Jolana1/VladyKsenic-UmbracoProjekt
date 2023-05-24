@@ -323,6 +323,7 @@
     <Content Include="config\Lang\zh-CN.user.xml" />
     <Content Include="config\logviewer.searches.config.js" />
     <Content Include="config\splashes\noNodes.aspx" />
+    <Content Include="DB.sql" />
     <Content Include="Global.asax" />
     <Content Include="Media\0tchmihv\ja.jpg" />
     <Content Include="Media\2ombztoh\coyote-cascade-coyote-gulch-utah.jpg" />

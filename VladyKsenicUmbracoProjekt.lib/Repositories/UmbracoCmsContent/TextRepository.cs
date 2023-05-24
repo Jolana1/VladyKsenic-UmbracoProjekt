@@ -10,26 +10,37 @@ using VladyKsenicUmbracoProjekt.lib.Util;
 
 namespace VladyKsenicUmbracoProjekt.lib.Repositories.UmbracoCmsContent
 {
-   
+    public class TextRepository 
+    {
+        public const int TextyId = 1072;
 
-        public class TextRepository
+        public static Text GetFromUmbraco(UmbracoHelper umbraco)
         {
-            public const int TextyId_Sk = 1069;
-            public const int TextyId_En = 1072;
+            IPublishedContent content = umbraco.Content(TextyId);
 
-            public static Text GetFromUmbraco(UmbracoHelper umbraco)
-            {
-            string cultureId = CurrentLang.GetCurrentCultureId();
-            IPublishedContent content = umbraco.Content(cultureId == CurrentLang.CultureId_En ? TextyId_En : TextyId_Sk);
-
-                return content == null ? null : new Text(content);
-
-                
-                //    string cultureId = CurrentLang.GetCurrentCultureId(); 
-                //    IPublishedContent publishedContent = umbraco.Content(cultureId == CurrentLang.CultureId_En ? TextyId_En : TextyId_Sk);
-                //    IPublishedContent content = publishedContent;
-
-                //    return content == null ? null : new Text(content);
-            }
+            return content == null ? null : new Text(content);
+        }
     }
 }
+
+//public class TextRepository
+//{
+//    public const int TextyId_Sk = 1069;
+//    public const int TextyId_En = 1072;
+
+//    public static Text GetFromUmbraco(UmbracoHelper umbraco)
+//    {
+//    string cultureId = CurrentLang.GetCurrentCultureId();
+//    IPublishedContent content = umbraco.Content(cultureId == CurrentLang.CultureId_En ? TextyId_En : TextyId_Sk);
+
+//        return content == null ? null : new Text(content);
+
+
+//    string cultureId = CurrentLang.GetCurrentCultureId(); 
+//    IPublishedContent publishedContent = umbraco.Content(cultureId == CurrentLang.CultureId_En ? TextyId_En : TextyId_Sk);
+//    IPublishedContent content = publishedContent;
+
+//    return content == null ? null : new Text(content);
+//            }
+//    }
+//}
