@@ -236,7 +236,8 @@ a {
     padding-top: 0;
 }
 /* Course video */
-.course-video {
+
+/*.course-video {
     margin: 0 20px 50px 20px;
 }
 
@@ -261,7 +262,7 @@ a {
         left: 0;
         width: 100%;
         height: 100%;
-    }
+    }*/
 
 /*.navbar-default {
     border: none;
