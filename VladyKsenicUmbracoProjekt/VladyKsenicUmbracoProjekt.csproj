@@ -2864,7 +2864,6 @@
     <Content Include="Views\MacroPartials\YouTubeVideo.cshtml" />
     <Content Include="Views\MacroPartials\LoginForm.cshtml" />
     <Content Include="Views\MacroPartials\MemberInfo.cshtml" />
-    <Content Include="Views\MacroPartials\Galeria4.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -2901,6 +2900,10 @@
     <Folder Include="Styles\video\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\dufeksoft\dufeksoft.lib\dufeksoft.lib\dufeksoft.lib.csproj">
+      <Project>{3b16a948-37a3-4301-b11b-bfde6e95fb10}</Project>
+      <Name>dufeksoft.lib</Name>
+    </ProjectReference>
     <ProjectReference Include="..\VladyKsenicUmbracoProjekt.lib\VladyKsenicUmbracoProjekt.lib.csproj">
       <Project>{487cddde-d6f5-4b46-a087-c9734e1b60af}</Project>
       <Name>VladyKsenicUmbracoProjekt.lib</Name>
