@@ -100,11 +100,11 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="bin\Debug\VladyKsenicUmbracoProjekt.lib.dll" />
-  </ItemGroup>
-  <ItemGroup>
     <Folder Include="bin\Debug\cs-CZ\" />
     <Folder Include="bin\Debug\sk-SK\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\VladyKsenicUmbracoProjekt.lib.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

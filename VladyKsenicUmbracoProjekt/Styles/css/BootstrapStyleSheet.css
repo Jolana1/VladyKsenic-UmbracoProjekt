@@ -235,20 +235,20 @@ a {
 .slider-wrapper .slider-content .photo-slider {
     padding-top: 0;
 }
-/* Course video */
+/* Video-container */
 
-/*.course-video {
+.video-container {
     margin: 0 20px 50px 20px;
 }
 
-.course-video {
+.video-container {
     position: relative;
     width: 100%;
     padding-bottom: 56.25%;
     height: 0;
 }
 
-    .course-video iframe {
+    .video-container iframe {
         position: absolute;
         top: 0;
         left: 0;
@@ -256,13 +256,13 @@ a {
         height: 100%;
     }
 
-    .course-video video {
+    .video-container video {
         position: absolute;
         top: 0;
         left: 0;
         width: 100%;
         height: 100%;
-    }*/
+    }
 
 /*.navbar-default {
     border: none;

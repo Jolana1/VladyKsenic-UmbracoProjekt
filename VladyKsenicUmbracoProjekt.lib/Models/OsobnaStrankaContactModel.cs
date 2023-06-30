@@ -31,7 +31,7 @@ namespace VladyKsenicUmbracoProjekt.lib.Models
 
         public bool SendContactRequest()
         {
-            List<TextTemplateParam> paramList = new List<TextTemplateParam>();
+            List<TextTemplateParam> paramList = new List<TextTemplateParam> { };
             paramList.Add(new TextTemplateParam("NAME", this.Name));
             paramList.Add(new TextTemplateParam("EMAIL", this.Email));
             paramList.Add(new TextTemplateParam("TEXT", this.Text));
