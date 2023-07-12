@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <language alias="en" intName="English" localName="English" culture="en-US">
 	<area alias="Controllers/ContactController">
-    <key alias="Musíte označiť, že nie ste robot.">You must indicate that you are not a robot.</key>
+    <key alias="Musíte označiť, že nie ste robot.">You must check that you are not a robot.</key>
     </area>
 	<area alias="Views/ContactForm">
 	<key alias="Správu sa nepodarilo odoslať. Opravte chyby a skúste správu odoslať znovu.">The message could not be sent.</key>
@@ -14,7 +14,8 @@
 		<key alias="Neplatný email">Invalid email</key>
 		<key alias="Text správy">Message text</key>
 		<key alias="Text správy musí byť zadaný">Message text is required</key>
-		
+		<key alias="Heslo">Password</key>
+		<key alias="Heslo musí byť zadané">Password is required</key>
 	</area>
 	
 </language>

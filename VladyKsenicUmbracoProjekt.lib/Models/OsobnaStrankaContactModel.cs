@@ -16,18 +16,25 @@ namespace VladyKsenicUmbracoProjekt.lib.Models
         [RequiredCurrentLang("Models/OsobnaStrankaContactModel", "Meno a priezvisko musia byť zadané")]
         [DisplayCurrentLang("Models/OsobnaStrankaContactModel", "Meno a priezvisko")]
         public string Name { get; set; }
+
         [EmailCurrentLang("Models/OsobnaStrankaContactModel", "Neplatný email")]
-        [RequiredCurrentLang("Models/OsobnaStrankaContactModel","E-mail musí byť zadaný")]
+        [RequiredCurrentLang("Models/OsobnaStrankaContactModel", "E-mail musí byť zadaný")]
         [DisplayCurrentLang("Models/OsobnaStrankaContactModel", "E-mail")]
         public string Email { get; set; }
-        [RequiredCurrentLang("Models/OsobnaStrankaContactModel","Text správy musí byť zadaný")]
+
+        [RequiredCurrentLang("Models/OsobnaStrankaContactModel", "Text správy musí byť zadaný")]
         [DisplayCurrentLang("Models/OsobnaStrankaContactModel", "Text správy")]
         public string Text { get; set; }
 
-        [Display(Name = "Heslo")]
+        [RequiredCurrentLang("Models/OsobnaStrankaContactModel", "Heslo musí byť zadané")]
+        [DisplayCurrentLang("Models/OsobnaStrankaContactModel", "Heslo")]
+        
         public string Password { get; set; }
-        [Display(Name = "Potvrdenie hesla")]
+        
+        
         public string ConfirmPassword { get; set; }
+        
+        [DisplayCurrentLang("Models/OsobnaStrankaContactModel", "Potvrdenie hesla")]
 
         public bool SendContactRequest()
         {

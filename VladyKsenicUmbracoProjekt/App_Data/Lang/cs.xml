@@ -159,7 +159,7 @@
   <area alias="App_Plugins/QuoteGateways/GoPayForm">
     <key alias="PLATBA KARTOU">PLATBA KARTOU</key>
     <key alias="ONLINE PLATBA KARTOU">ONLINE PLATBA KARTOU</key>
-    <key alias="Komunikácia s platobnou bránou zlyhala. Kontaktuje nás prosím.">Komunikace s platební bránou selhala. Kontaktuje nás prosím.</key>
+    <key alias="Komunikácia s platobnou bránou zlyhala. Kontaktuje nás prosím.">Komunikace s platební bránou selhala. Kontaktujte nás prosím.</key>
     <key alias="Zaplatiť">Zaplatit</key>
     <key alias="Objednávka číslo:">Objednávka číslo:</key>
     <key alias="Suma na úhradu:">Suma na úhradu:</key>
