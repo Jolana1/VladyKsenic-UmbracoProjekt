@@ -24,7 +24,24 @@ namespace VladyKsenicUmbracoProjekt.lib.Models
         [Required(ErrorMessage = "Heslo musí byť zadané")]
         [DataType(DataType.Password)]
         public string Password { get; set; }
-    }
+
+        //public class LostPasswordModel  
+        //{
+        //    [Display(Name = "Váš e-mail")]
+        //    [Email(ErrorMessage = "Neplatný formát e-mailu")]
+        //    [Required(ErrorMessage = "E-mail musí byť zadaný")]
+        //    public string Email { get; set; }
+        //}
+
+        //public class ChangePasswordModel 
+        //{
+        //    [Display(Name = "Nové heslo")]
+        //    [Required(ErrorMessage = "Nové heslo musí byť zadané")]
+        //    public string NewPassword { get; set; }
+        //    [Display(Name = "Zopakované nové heslo")]
+        //    [Required(ErrorMessage = "Zopakované nové heslo musí byť zadané")]
+        //    public string NewPasswordRepeat { get; set; }
+        }
 }
 
 

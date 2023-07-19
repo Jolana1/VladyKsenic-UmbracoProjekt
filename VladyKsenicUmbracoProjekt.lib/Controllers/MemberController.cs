@@ -37,7 +37,7 @@ namespace VladyKsenicUmbracoProjekt.lib.Controllers
                     }
                     else
                     {
-                        return this./*RedirectToUmbracoPageResult */RedirectToOsobnaStrankaUmbracoPage(ConfigurationUtil.AfterLoginFormId);
+                        return this.RedirectToOsobnaStrankaUmbracoPage(ConfigurationUtil.AfterLoginFormId);
                     }
                 }
                 else
@@ -53,7 +53,7 @@ namespace VladyKsenicUmbracoProjekt.lib.Controllers
             TempData.Clear();
             Session.Clear();
             Members.Logout();
-            return this./*RedirectToUmbracoPageResult*/RedirectToOsobnaStrankaUmbracoPage(ConfigurationUtil.LoginFormId);
+            return this.RedirectToOsobnaStrankaUmbracoPage(ConfigurationUtil.LoginFormId);
         }
         public ActionResult MemberInfo() => View();
 
