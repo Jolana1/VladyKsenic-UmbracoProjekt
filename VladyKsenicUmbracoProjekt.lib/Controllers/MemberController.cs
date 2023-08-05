@@ -68,8 +68,8 @@ namespace VladyKsenicUmbracoProjekt.lib.Controllers
         //{
         //    if (ModelState.IsValid)
         //    {
-        //        DeveloperBossMemberRepository repository = new DeveloperBossMemberRepository();
-        //        DeveloperBossMember member = repository.GetMemberByEmail(model.Email);
+        //        OsobnaStrankaRepository repository = new OsobnaStrankaRepository();
+        //        OsobnaStranka member = repository.GetMemberByEmail(model.Email);
         //        if (member == null)
         //        {
         //            ModelState.AddModelError("", "Užívateľ nenájdený.");
@@ -99,52 +99,52 @@ namespace VladyKsenicUmbracoProjekt.lib.Controllers
         //                paramList.Add(new TextTemplateParam("PASSWORD", member.Password));
 
         //                // Odoslanie uzivatelovi
-        //                DeveloperBossMailer.SendMailTemplateWithoutBcc(
+        //                OsobnaStrankaMailer.SendMailTemplateWithoutBcc(
         //                    "Obnovenie prístupu",
         //                    TextTemplate.GetTemplateText("LostPassword_Sk", paramList),
         //                    member.Email);
 
-        //                return this.        protected RedirectToUmbracoPageResult RedirectToOsobnaStrankaUmbracoPage(ConfigurationUtil.AfterPasswordResetFormId);
+        //                return this.        /*protected RedirectToUmbracoPageResult*/ RedirectToOsobnaStrankaUmbracoPage(ConfigurationUtil.AfterPasswordResetFormId);
         //            }
         //        }
         //    }
-        //    return CurrentUmbracoPage();
-        //}
+            //    return CurrentUmbracoPage();
+            //}
 
-        //[Authorize(Roles = DeveloperBossMemberRepository.DeveloperBossMemberCourseRole)]
-        //public ActionResult ChangePassword()
-        //{
-        //    return View(new ChangePasswordModel());
-        //}
-        //[HttpPost]
-        //[Authorize(Roles = DeveloperBossMemberRepository.DeveloperBossMemberCourseRole)]
-        //[ValidateAntiForgeryToken]
-        //public ActionResult SavePassword(ChangePasswordModel model)
-        //{
-        //    if (model.NewPassword != model.NewPasswordRepeat)
-        //    {
-        //        ModelState.AddModelError("NewPasswordRepeat", "Zopakované nové heslo a Nové heslo musia byť rovnaké.");
-        //    }
+            //[Authorize(Roles = OsobnaStrankaRepository.OsobnaStrankaCourseRole)]
+            //public ActionResult ChangePassword()
+            //{
+            //    return View(new ChangePasswordModel());
+            //}
+            //[HttpPost]
+            //[Authorize(Roles = OsobnaStrankaRepository.OsobnaStrankaCourseRole)]
+            //[ValidateAntiForgeryToken]
+            //public ActionResult SavePassword(ChangePasswordModel model)
+            //{
+            //    if (model.NewPassword != model.NewPasswordRepeat)
+            //    {
+            //        ModelState.AddModelError("NewPasswordRepeat", "Zopakované nové heslo a Nové heslo musia byť rovnaké.");
+            //    }
 
-        //    if (ModelState.IsValid)
-        //    {
-        //        DeveloperBossMemberRepository repository = new DeveloperBossMemberRepository();
-        //        DeveloperBossMember currentMember = repository.GetCurrentMember();
-        //        currentMember.Password = model.NewPassword;
-        //        MembershipCreateStatus status = repository.SavePassword(currentMember);
-        //        if (status != MembershipCreateStatus.Success)
-        //        {
-        //            ModelState.AddModelError("", string.Format("Vyskytla sa chyba. {0} Skúste akciu zopakovať alebo nás kontaktujte.", repository.GetErrorMessage(status)));
-        //        }
-        //        else
-        //        {
-        //            return this.        protected RedirectToUmbracoPageResult RedirectToOsobnaStrankaUmbracoPage(ConfigurationUtil.AfterLoginFormId);
-        //        }
-        //    }
+            //    if (ModelState.IsValid)
+            //    {
+            //        OsobnaStrankaRepository repository = new OsobnaStrankaRepository();
+            //        OsobnaStranka currentMember = repository.GetCurrentMember();
+            //        currentMember.Password = model.NewPassword;
+            //        MembershipCreateStatus status = repository.SavePassword(currentMember);
+            //        if (status != MembershipCreateStatus.Success)
+            //        {
+            //            ModelState.AddModelError("", string.Format("Vyskytla sa chyba. {0} Skúste akciu zopakovať alebo nás kontaktujte.", repository.GetErrorMessage(status)));
+            //        }
+            //        else
+            //        {
+            //            return this.        /*protected RedirectToUmbracoPageResult*/ RedirectToOsobnaStrankaUmbracoPage(ConfigurationUtil.AfterLoginFormId);
+            //        }
+            //    }
 
-        //    return CurrentUmbracoPage();
-        //}
-    }
+            //    return CurrentUmbracoPage();
+            //}
+        }
 }
 
 

@@ -302,6 +302,7 @@
     <Content Include="App_Data\Lang\en.xml" />
     <Content Include="App_Data\MailTemplates\ContactSendSuccess_Sk.html" />
     <Content Include="App_Data\MailTemplates\EmailOne_Sk.html" />
+    <Content Include="App_Plugins\OsobnaStranka\Views\Member\LostPassword.cshtml" />
     <Content Include="config\grid.editors.config.js" />
     <Content Include="config\Lang\cs-CZ.user.xml" />
     <Content Include="config\Lang\da-DK.user.xml" />
@@ -2864,6 +2865,7 @@
     <Content Include="Views\MacroPartials\LoginForm.cshtml" />
     <Content Include="Views\MacroPartials\MemberInfo.cshtml" />
     <Content Include="Views\MacroPartials\YouTubeVideo.cshtml" />
+    <Content Include="Views\MacroPartials\LostPasswordForm.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

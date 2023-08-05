@@ -9,7 +9,7 @@ using System.Runtime.Serialization;
 using Newtonsoft.Json;
 using System.Runtime.InteropServices;
 using Umbraco.Web.Models;
-
+using dufeksoft.lib.Model;
 
 namespace VladyKsenicUmbracoProjekt.lib.Models
 
@@ -25,15 +25,15 @@ namespace VladyKsenicUmbracoProjekt.lib.Models
         [DataType(DataType.Password)]
         public string Password { get; set; }
 
-        //public class LostPasswordModel  
-        //{
-        //    [Display(Name = "Váš e-mail")]
-        //    [Email(ErrorMessage = "Neplatný formát e-mailu")]
-        //    [Required(ErrorMessage = "E-mail musí byť zadaný")]
-        //    public string Email { get; set; }
-        //}
+        public class LostPasswordModel
+        {
+            [Display(Name = "Váš e-mail")]
+            [Email(ErrorMessage = "Neplatný formát e-mailu")]
+            [Required(ErrorMessage = "E-mail musí byť zadaný")]
+            public string Email { get; set; }
+        }
 
-        //public class ChangePasswordModel 
+        //public class ChangePasswordModel : _BaseModel
         //{
         //    [Display(Name = "Nové heslo")]
         //    [Required(ErrorMessage = "Nové heslo musí byť zadané")]
@@ -41,7 +41,7 @@ namespace VladyKsenicUmbracoProjekt.lib.Models
         //    [Display(Name = "Zopakované nové heslo")]
         //    [Required(ErrorMessage = "Zopakované nové heslo musí byť zadané")]
         //    public string NewPasswordRepeat { get; set; }
-        }
+    }
 }
 
 
